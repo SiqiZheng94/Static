@@ -8,7 +8,6 @@ public class JavaStatic {
     }
 
 
-
     public static void incrementTotalCount(){
         totalCount++;
     }
@@ -20,7 +19,7 @@ public class JavaStatic {
     public String toString() {
         return "JavaStatic{" +
                 "totalCount=" + totalCount +
-                "instanceCount=" + instanceCount +
+                " instanceCount=" + instanceCount +
                 '}';
     }
 }
